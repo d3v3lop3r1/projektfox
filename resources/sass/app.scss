@@ -1,1 +1,15 @@
 //
+$font-stack:    'Raleway', sans-serif;
+$primary-color: rgb(46, 24, 105);
+
+body, html{
+    font-family: $font-stack;
+    color: $primary-color;
+}
+
+.home-page{
+    .h1{
+        font-family: $font-stack;
+        margin: auto auto;
+    }
+}
